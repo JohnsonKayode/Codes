@@ -7,7 +7,7 @@
 }
 
 body{
-    margin: 0 auto;
+    margin: 10px auto;
     display: block;
     padding: 20px;
     width: fit-content;
@@ -17,12 +17,10 @@ body{
 
 header{
     text-align: center;
-    margin: 8%;
-    height: 142px;
+    margin: 10px;
+    /* height: 142px; */
     justify-content: space-between;
-    /* width: 375px; */
-
-    /* justify-content: center; */
+    width: 375px;
     }
 
 header h2{
@@ -34,13 +32,18 @@ header h2{
 
 .topnav .toptext{
     color: #7F56D9;
+    font-weight: bold;
 }
-
 .topnav  p{
+    /* wed love to hear  */
     font-size: 16px;
+    font-weight: light;
+    color: rgb(93, 93, 93);
     line-height: 28px;
+    margin: 5px;
     /* height: 56px; */
     width: 343px;
+    letter-spacing: -.5px;
 }
 
 form{
@@ -50,8 +53,56 @@ form{
 
 form > label{
     font-size: 12px;
-    line-height: 20px;
+    line-height: 40px;
     font-family: 'inter';
+
+}
+
+form > input{
+    padding: 10px;
+    border: 1px solid rgba(147, 147, 147, 0.5);
+    border-radius: 5px;
+    }
+
+form input placeholder{
+    font-size: 5px;
+}
+
+#message-box{
+    height: 74px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(147, 147, 147, 0.5);
+}
+
+.footer{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+form .footer input{
+    margin-left: -150px;
+}
+
+form .footer p{
+    font-size: 13px;
+    margin-left: -150px;
+}
+
+form .footer p a{
+    color: black;
+}
+
+button{
+    background-color: #7F56D9;
+    color: white;
+    padding: 50px 10px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 

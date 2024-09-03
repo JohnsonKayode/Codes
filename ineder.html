@@ -3,88 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Phone Number Dropdown</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav {
-            margin: 10px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            color: white;
-            text-decoration: none;
-        }
-        .hero {
-            background: url('hero-image.jpg') no-repeat center center/cover;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-        }
-        .about {
-            padding: 20px;
-            text-align: center;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        @media (max-width: 600px) {
-            .hero {
-                height: 200px;
-            }
-            nav {
-                display: flex;
-                flex-direction: column;
-            }
-            nav a {
-                margin: 5px 0;
-            }
-        }
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.phone-number-dropdown {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="tel"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
     </style>
 </head>
 <body>
-
-<header>
-    <h1>My Website</h1>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="Media">Media</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
-
-<section class="hero">
-    <h2>Welcome to My Website</h2>
-</section>
-
-<section class="about" id="about">
-    <h3>About Us</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</section>
-
-<footer>
-     
-</footer>
-
+    <div class="phone-number-dropdown">
+        <label for="country-code">Country Code:</label>
+        <select id="country-code">
+            <option value="+1">USA (+1)</option>
+            <option value="+44">UK (+44)</option>
+            <option value="+91">India (+91)</option>
+            <option value="+61">Australia (+61)</option>
+            <option value="+81">Japan (+81)</option>
+        </select>
+        <input type="tel" placeholder="Enter your phone number" />
+    </div>
 </body>
-</html>>
+</html>
