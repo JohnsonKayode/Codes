@@ -1,0 +1,345 @@
+:root{
+    font-family: work sans;
+     --neutral: hsl(210, 4%, 30%);  /* to use: color: var(--neural)*/
+     --gradient: linear-gradient(122.15deg, #F9C8BF 3.72%, #F87C61 19.56%, #AB26F8 84.21%, #D75EFC 100.63%);
+     margin-left: 1rem;
+     background-color: rgb(240, 240, 240);
+}
+
+body{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+header{
+    width: fit-content;
+}
+
+.heading{
+    display: inline-flex;
+    width: fit-content;
+    align-self: center;
+    /* align-content: center; */
+    /* padding: 1em 1em; */
+    background-color: white;
+    align-items: center;
+    /* width: 78.4; */
+}
+
+.logo{
+    /* margin-left: 1rem; */
+    margin-right: 23em;
+    margin-top: 0.5em;
+}
+
+.lists ul{
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 1em;
+}
+
+.lists ul li{
+    padding: 1em;
+    margin-right: 10px;
+}
+
+.lists > ul > li > a{
+    text-decoration: none;
+    color: var(--neutral);
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.btn{
+    padding: 1em;
+    width: fit-content;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    text-transform: capitalize;
+    width: fit-content;
+    padding: .2rem 2rem;
+    margin: 0.6;
+    /* outline-style: none; */
+    /* border: none; */
+    background: var(--gradient);
+    color: white;
+    border-radius: 0.6em;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background: var(--neutral);
+    color: white;
+}
+
+.btn1{
+    text-transform: capitalize;
+    width: fit-content;
+    padding: 1rem 2rem;
+    margin-top: 1em;
+    background: var(--gradient);
+    color: white;
+    border-radius: 0.6em;
+    font-weight: 500;
+}
+
+.firstsection{
+    display: inline-flex;
+    width: 78.4em;
+    height: 40.5em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstsection > .first > .socials{
+    display: inline-flex;
+    width: fit-content;
+    background-color: white;
+    text-transform: capitalize;
+    border-radius: 1em;
+    align-items: center;
+    box-shadow: 0 0 04px -1px gray;
+    padding: 0.3em 1.5em;
+    /* margin-bottom: -em; */
+}
+
+.firstsection > .first > .socials > .icons i{
+    padding: 0.5em;
+}
+
+.firstsection > .first{
+    display: block;
+}
+
+.firstsection > .image > img{
+    height: 40.5em;
+}
+
+.firstsection h1{
+    text-transform: capitalize;
+    font-size: 3.5em;
+    color: var(--neutral);
+    font-family: inter;
+
+    /* font-weight: 700; */
+}
+
+#texts > .heading1 > h1 > span{
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#texts > .heading1 > p{
+    line-height: 26px;
+}
+#texts > .heading1 > #bottom{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.secondsection{
+    box-shadow: 0 0 04px -2px gray;
+    border-radius: 1rem;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 76em;
+    background-color: white;
+    align-content: center;
+    margin-top: -10px;
+}
+
+.secondsection .big{
+    font-family: inter;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    width: 74em;
+    margin-right: 4rem;
+    color: #202124;
+    /* height: 40.5em; */
+}
+
+.secondsection .small{
+    font-family: work sans;
+    line-height: 22px;
+    color: var(--neutral);
+    padding: 1.5rem;
+}
+
+.secondsection .small::first-letter{
+    text-transform: capitalize;
+}
+
+.thirdsection{
+    display: flex;
+    background-color: var(--neutral);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-family: inter;
+    /* width: 74.8rem; */
+}
+
+.thirdsection > .texts{
+    color: white;
+    margin-right: 14rem;
+}
+
+.thirdsection > .texts h3{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: -.5rem;
+    align-content: center;
+
+}
+
+.thirdsection > .texts p{
+    font-size: 1rem;
+    /* margin-bottom: 3rem; */
+}
+
+.thirdsection > .texts .btt{
+    margin-top: 2rem;
+    border: 1px solid white;
+    width: fit-content;
+    padding: .8rem 2rem;
+    border-radius: 2rem;
+}
+
+.thirdsection .image2{
+    margin-top: 1rem;
+}
+
+.fourthsection{
+    height: 128.813rem;
+    /* width: 77.536rem; */
+    padding: 2rem;
+
+    /* display: inline-flex; */
+}
+
+.fourthsection > .container1 > h1{
+    width: 40rem;
+    font-family: inter;
+    font-size: 4rem;
+    line-height: 4.3rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    /* display: inline-flex; */
+}
+
+.container2{
+    display: flex;
+    margin-top: 2rem;
+    /* width: 36rem; */
+}
+
+.containers{
+    margin: 1rem;
+    background-color: #FF564C;
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 36rem;
+    box-shadow: 0 0 5px -2px gray;
+}
+
+.containers > img{
+    width: 30rem;
+    margin-top: 1rem;
+}
+
+.containers > h2{
+    font-family: inter;
+    font-size: 2.6rem;
+    width: 11rem;
+    color: white;
+}
+
+#c2{
+    background-color: #E8F0FE;
+}
+
+#c2 > h2{
+    width: 15rem;
+    color: #1E1E1E;
+}
+
+#c3 > h2{
+    width: 15rem;
+    color: var(--neutral);
+}
+
+#c3{
+    background: #F1F1F1;
+    color: black;
+}
+
+#c4{
+    background-color: #7700bc;
+}
+
+#c5{
+    background-color: #1A73E8;
+}
+#c5 > h2{
+    width: 18rem;
+    color: white;
+}
+
+#c6{
+    background-color: #E8F0FE;
+}
+
+#c6 > h2{
+    width: 15rem;
+    color: #1E1E1E;
+}
+
+.fifthsection{
+    /* width: 77.5rem; */
+    height: 15.5rem;
+    margin: 2rem;
+    font-family: inter;
+}
+
+.fifthsection > .contain h3{
+    font-family: inter;
+    font-size: 2.6rem;
+}
+
+.fifthsection > .contain > .containment{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;\ */
+    justify-content: center;
+
+}
+
+.fifthsection > .contain > .containment > .containment1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #202124;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    width: fit-content;
+    /* margin-right: 2rem; */
+}
+
+.containment1 > i{
+    /* padding: 0 1rem; */
+}

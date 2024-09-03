@@ -1,0 +1,91 @@
+h1, h2{
+    color: red;
+}
+
+/* p::first-letter{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+} */
+
+/* Basic CSS selectors */
+
+/* Tag selector - Styling an element using the name of the tag atributed to it in the HTML fieldset
+
+CLass selector - Styling using a class name is also another way to style elements. and to syle a class you use .(classname) e.g .paragraph
+
+
+ID selector - Styling using an ID name is also another way to style elements. and to style an ID you use #(IDname) e.g #paragraph 
+
+in CSS, IDs are more important than classes or tags
+
+ID - 100%
+Class - 10%
+Tags - 1%
+
+So whenever you are using css and there is a conflict somewhere, you can use the ID to override the various conflicts within the css file.
+
+Also note that an Inline CSS takes precedence over the css file linked externally or written at the top of the HTML file using the STYLE tag
+
+Relative Path - These are files within different folders
+Absolute paths - these are files in the same folder
+*/
+
+
+/* TO apply a style to multiple elements, you use the comma to separate the tags in CSS */
+#paragraph_text{
+    color: orangered;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header1{
+    /* color: green; */
+}
+
+header > ul li > a{
+    text-decoration: none;
+    color: purple;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+article{
+    font-family: 'Montserrat';
+}
+
+
+
+body{
+    margin: 50px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 200px;
+    font-family: 'Poppins';
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: all linear 0.2s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+/* We have pre pseudo classes, pre pseudo elements
+
+Pre pseudo elements is the one that uses columns within the css e.g (tag or element name)::before, (tag or element name)::after, (tag or element name)::first-letter, (tag or element name)::shadow
+
+Pre pseudo classes includes adding classes like (tag or element name):visited, (tag or element name):hover. They help use track certain states of the website and change certain behaviors of some elements.
+
+Pseudo Classes are used most of the time to set something by default and they include examples like :root{}. Roots are used to set us variables and rename elements to your taste.*/
+
+/* Margin - the space around an element
+Padding - the space within a given element 
+*/

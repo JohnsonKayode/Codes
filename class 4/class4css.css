@@ -1,0 +1,13 @@
+h3{
+    color: blue;
+    text-decoration: underline;
+    background: gold;
+}
+
+h2{
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+    border-color: orange;
+}
+  

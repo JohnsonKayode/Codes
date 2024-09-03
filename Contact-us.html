@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- The code below is the link to the fonts (inter and almarai) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="contact-us.css.css">
+
+</head>
+<body>
+    <header class="topnav">
+        <p class="top text">Contact us</p>
+        <h2>Get in touch</h2>
+        <p>we'd love to hear from you. Please fill out this form.</p>
+    </header>
+
+    <form action="GET" method="get">
+        <label for="firstname">First Name:</label>
+        <input type="text" placeholder="John" id="firstname" required>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" placeholder="Doe" id="lastname" required>
+
+        <label for="Email">Email:</label>
+        <input type="email" placeholder="johndoe@example.com" id="Email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" placeholder="+234 000 111 2222" id="phone" required>
+
+        <label for="message">Message:</label>
+        <input type="text" id="message" >
+
+        <input type="checkbox" name="checkbox" id="">
+        <p>You agree to our friendly <a href="#">Privacy Policy.</a></p>
+
+        <button>Send message</button>
+    </form>
+</body>
+</html>

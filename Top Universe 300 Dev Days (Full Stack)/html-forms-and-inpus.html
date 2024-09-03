@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="keywords" content="Forms, HTML, Inputs">
+    <meta name="description" content="A page for Forms an Inputs">
+
+    <title>300 days Forms and Inputs</title>
+
+
+</head>
+<body>
+
+    <h3>Forms and Inputs</h3>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./day2.html">Place holder 1</a></li>
+                <li><a href="./day2.html">Place holder 2</a></li>
+                <li><a href="./day2.html">Place holder 3</a></li>
+                <li><a href="./day2.html">Place holder 4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="" method="" target=""> 
+        <!-- when using target="_blank" tha means you want to do it on a new tab-->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter Your name" id="name" required>
+        </div>
+        <br>
+
+        <div>
+        <label for="mail">Email Address:</label>
+        <input type="email" name="mail" id="mail" placeholder="Enter your Email">
+    </div>
+        <br>
+
+            <div>
+        <label for="password">Password:</label>
+        <input type="password" name="Enter password" id="password" placeholder="Enter password" required>
+    </div>
+    <br>
+
+        <div>
+            <label for="gender">gender</label>
+            <!-- For radios, in order to pick one, they must have same name -->
+            <input type="radio" value="Male" name="gender" id="gender">Male
+            <input type="radio" value="female" name="gender" id="gender">female
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" value="yes">
+            <p>I agree with the <a href="#">Terms and Condition</a></p>
+        </div>
+
+
+        <fieldset>
+            <legend>Additional details</legend>
+        <div>
+            <label for="Role">Select your Role:</label>
+            <select name="Role" id="Role">
+                <option value="Media team">Media Team</option>
+                <option value="Logistics team">Logistics Team</option>
+                <option value="Choir team">Choir Team</option>
+                <option value="Greeters team">Greeters Team</option>
+                <option value="Volunteers team">Volun Team</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="date">Enter Date of birth:</label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="skill">Rate your Skill:</label>
+            <input type="range" id="skill" >
+        </div>
+        <br>
+
+        <div>
+            <label for="file">Enter Your CV:</label>
+            <input type="file" name="CV" id="file">
+        </div>
+        <br>
+
+        <!-- <label for="submit">Submit Form</label> -->
+        <input type="submit" placeholder="Submit" id="submit">
+    </fieldset>
+    </form>
+
+    <a href="./html-semantics-and-best-practices.html">Html semantics</a>
+</body>
+</html>

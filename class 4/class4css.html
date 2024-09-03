@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 4 CSS class</title>
+    <link rel="stylesheet" href="class4css.css">
+</head>
+<body>
+    <h3>The Golden rule</h3>
+    <p>Separation of concerns. (Html,Css and Javascript on separate files.)</p>
+
+    <h2>CSS</h2>
+    <h3>Where does CSS go?</h3>
+    <p>Because of the separation of concerns, we will put it in a separate file and link it with our HTML file. The only time you can use inline CSS is in emails.</p>
+
+    <h3>Use separate CSS files</h3>
+    <p>It is best practice to put css in its own file and link to it from the <head tag> <link rel="stylesheet" href="Css file name"> and thats is all you need to do to link your CSS file. </p>
+
+    <h3>CSS SYNTAX</h3>
+    <p> p (selector) { (curly braces/ declaration block) Color: (Properties/declaration) red; (values)}</p>
+
+    <p>the whole thing is called a rule. The P is called a selector. It is followed by a set of declarations in a declaration block. Each declaration conntains properties and values. The selector, P in this case, tells the HTML what part of the HTML document should be styled by the declaration. The selector will style all the P elements on the page.</p>
+     
+    <p>So basically, CSS is like a bunch of rules that the HTML has to abide by. So it dicates what rule the html should follow in terms of style and it properties. </p>
+
+    <h3>Another rule of css is that it can be read from top to bottom.</h3>
+    <p>however, what is above can be overwritten by what is below. So because it reads from top to bottom, The top takes effec but if there is another declaration below that has the same properties as the one above but different value, the one below takes precedence.</p>
+
+    <h3>there are 4 main ways to use colors in CSS</h3>
+    <ul>
+        <li>Word: h1{color: red;}</li>
+        <li>Hex: h2{color:#ff0000;}</li>
+        <li>RGBa (red, green, blue, alpha(transparency) ): h5{color: rgba(255,0,0,1);}</li>
+        <li>HSLa(hue, saturation and lightness): span{color: hsla(0,100%, 50%, 1);} </li>
+    </ul>
+
+    <h3>FOnt family.</h3>
+    <p>fonts are actuallu files and you need to get the file and give i to your browser so you get what you want. </p>
+    <img src="./Screenshot 2023-08-01 032721.png" alt="How to link fonts">
+
+    <h3>Font weight</h3>
+    <p>This is how to do the same for font weight</p>
+    <img src="./Screenshot 2023-08-01 033020.png" alt="How to link font weights">
+
+    <h3>Font STyle</h3>
+    <p>This is used tto give texts a feel, like italic, bold, and all that. it gives the font a style.</p>
+
+    <h1>There is somehing i keep forgetting about FE development</h1>
+    <p>I wish i could be consistent at this thing but graphic design dey take all my time</p>
+
+    <h1>Top universe usage of forms</h1>
+
+
+    <form action=""> <!--watch videos on forms and its attributes-->
+
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" value="male"> Male
+            <input type="radio" name="gender" id="gender" value="female"> Female
+        </div>
+        <br>
+
+        <div>
+            <label for="Designation">What is your Designation:</label>
+            <select name="Designation" id="Designation">
+                <option value="Brand-design">Brand Designer</option>
+                <option value="graphic-designer">Graphic designer</option>
+                <option value="content-creator">Content Creattor</option>
+            </select>
+        </div>
+        <br>
+
+        <input type="text" placeholder="Enter your name:"> <!--It is advisable to use placeholders when using forms. To tell users what to input-->
+        <br>
+        <div>
+            <input type="submit" value="Submit here"> <!--You use value instead of placeholders when using he input type: SUBMIT-->
+        </div>
+
+        <br>
+        <div>
+            <label for="email">Enter mail:</label> <!--In labels we use identifyers for referencing in the labels. More like adding a description to an input. and to help users find their way around.-->
+            <input type="email" id="email" placeholder="Enter your email addess here">
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+        </div>
+        <br>
+
+        <div>
+            <input type="email" name="" id="email" placeholder="Second email">
+            <input type="checkbox" value="Yes"> I agree to the terms and conditions
+        </div>
+        <br>
+        
+        <input type="submit" value="Verify Details">
+    </form>
+</body>
+</html>
