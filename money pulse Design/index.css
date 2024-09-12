@@ -1,5 +1,5 @@
 :root{
-    --gray:#353c3b;
+    --gray:#495150;
     --grin:#319b88;
 }
 
@@ -9,13 +9,12 @@
     font-family: 'manrope', 'inter', sans-serif;
 }
 
-body{
-    max-width: 100%;     
-    /* width: 100%; */
-}
-
 nav{
     padding: 10px 20px;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 0%;
 }
 
 .top-left{
@@ -25,9 +24,9 @@ nav{
     width: 100%;
 }
 
-.top-left ul{
+/* .top-left ul{s
     margin-left: -30%;
-}
+} */
 
 .top-left ul li{
     list-style: none;
@@ -70,42 +69,60 @@ nav{
     float: right;
 }
 
-header{
+/* header{
     width: 100%;
     margin: 5% 20%;
-    justify-content: space-around;
+    display: inline-block;
+    justify-content: space-between;
+} */
+
+header {
+    /* text-align: center; Center text horizontally */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 0%; /* Remove default margin */
 }
 
-header .the-top-text{
+
+.e-wallet-text{
+    text-align: left;
+    width: 100%;
+}
+
+.the-top-text{
     font: 'manrope';
-    font-size: 12px;
-    border: 1px solid var(--gray);
+    font-size: 10px;
+    border: 1px solid rgb(154, 154, 154);
     color: var(--gray);
-    padding: 12px;
+    padding: 10px;
     border-radius: 5px;
     text-transform: uppercase;
-    display: inline-block; 
-    letter-spacing: 5px;
-    margin: 0% 0%;
+    letter-spacing: 3px;
 }
 
-header .header-image-and-text{
+.header-image-and-text{
     width: 70%;
     display: flex;
     /* justify-content: space-between; */
     justify-content: center;
 }
 
-header .header-left-text{
+.header-left-text{
     text-align: left;
-    font: bold;
+    font: bolder;
     width: 40%;
 }
 
-header .header-left-text h1{
+.header-left-text h1{
     font-size: 55px;
     line-height: 60px;
     padding: 6% 0%;
+    color: var(--gray);
+}
+
+.header-left-text h1 span{
+    color: var(--grin);
 }
 /* header .header-right-image{
     margin-top: -10%;
@@ -113,8 +130,41 @@ header .header-left-text h1{
     height: auto;
 } */
 
-header .header-right-image img{
-    width: 100%;
+.header-right-image img{
+    /* width: 100%; */
     height: auto;
-    margin: 0% 6%;
+    margin-top: -5%;
+    margin-left: 5%;
+}
+
+.header-left-text p{
+    font-size: 16px;
+    padding: 10px 0px;
+    width: 90%;
+    /* line-height: 10px; */
+}
+
+.header-left-text p:last-of-type {
+    /* Your styles here */font: bolder;
+}
+
+.bottom-text img{
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    justify-content: center;
+    padding: 3px;
+}
+
+.bottompart {
+    text-align: center; /* Center text horizontally within the bottompart */
+}
+
+.bottompart-text {
+    margin: 0; /* Remove default margin */
+}
+
+.the-top-text {
+    display: inline-block; /* Allows for centering */
+    margin: 0; /* Remove default margin */
 }
