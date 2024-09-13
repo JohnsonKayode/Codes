@@ -199,6 +199,7 @@ header {
     /* padding: 10px 20px; */
     border-radius: 30px;
     width: 40%;
+    height: auto;
 }
 
 .left-part h3{
@@ -263,3 +264,116 @@ header {
     line-height: 18px;
 }
 
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    /* text-align: center; */
+}
+
+.section2-top-text{
+    text-align: center;
+    padding: 5%;
+    width: 70%;
+}
+
+.section2-top-text h2{
+    font-size: 50px;
+    font-family: 'manrope';
+}
+
+.section2-top-text span{
+    color: var(--grin);
+}
+
+.section2-top-text p:last-of-type{
+    font-size: 22px;
+    font: lighter;
+    font-family: 'inter';
+}
+
+.integration{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    margin-top: -2%;
+    border-radius: 1%;
+    background-color: #e4fff5;
+}
+
+.integration-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+    /* display: grid;
+    grid-template-columns: 1fr;
+    align-items: center; 
+    margin: 0%; */
+}
+
+.integration-head h2{
+    font-size: 60px;
+    text-align: center;
+    color: var(--grin);
+    margin-bottom: 0%;
+    width: 70%;
+    margin-bottom: -6%;
+    /* padding: 5%; */
+}
+
+.integration-head img{
+    width: 80%;
+}
+
+.integration-text{
+    width: 40%;
+}
+
+.integration-text h2{
+    font-size: 40px;
+    padding: 30px 0px;
+    font-family: 'manrope';
+    width: 100%;
+}
+
+.integration-text p{
+    font-size: 18px;
+    /* padding: 30px 0px; */
+    font-family: 'inter';
+    line-height: 30px;
+    width: 90%;
+}
+.other2-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /*  */
+}
+
+.images h2{
+    color: var(--grin);
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: -5px;
+    margin-bottom: -8%;
+}
+
+.images{
+    background-color: #e4fff5;
+    padding: 0% 6%;
+    padding-top: 3%;
+    padding-bottom: -1%;
+    /* width: 40%; */
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
