@@ -377,3 +377,87 @@ header {
     justify-content: center;
     margin: 0%;
 }
+
+.section3{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    margin: 3% 0;
+    width: 100%;
+    /* padding: 10px; */
+
+}
+
+ .section3-lefttext{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3-lefttext h3{
+    font-size: 60px;
+    font-family: 'manrope';
+    line-height: 60px;
+    padding: 3% 0;
+}
+
+
+.section3-lefttext h3 span{
+    color: var(--grin);
+}
+
+.section3-lefttext p:last-of-type{
+    font-size: 24px;
+    width: 76%;
+    padding: 4% 0;
+    font-family: 'inter';
+    line-height: 35px;
+    text-align: left;
+}
+
+.section3-lefttext button{
+    background-color: #319b88;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px none var(--grin);
+    letter-spacing: normal;
+    font-family: 'inter';
+    cursor: pointer;
+}
+
+.section3-cards{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0;
+    /* padding: 3% 0; */
+}
+
+.card{
+    background-color: #e4fff5;
+    margin: 1% 0%;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card img{
+    width: 15%;
+    padding: 15px;
+}
+
+.card p{
+    font-size: 40px;
+    padding: 10px 0; 
+}
+
+.card h6{
+    color: var(--grin);
+    padding: 5px 0;
+} 
