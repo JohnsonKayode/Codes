@@ -460,4 +460,145 @@ header {
 .card h6{
     color: var(--grin);
     padding: 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 } 
+
+.card h5{
+    font-family: 'manrope';
+    font-size: 16px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    width: 100%;
+    /* margin-left: -0px; */
+    /* text-align: center; */
+}
+
+.section4-toptext{
+    text-align: center;
+    padding: 2% 0;
+}
+
+.section4-toptext h2{
+    font-family: 'manrope';
+    font-size: 56px;
+}
+
+.section4-toptext p:last-of-type{
+    font-family: 'inter';
+    font-size: 24px;
+    padding: 2% 0;
+}
+
+.section4-toptext span{
+    color: var(--grin);
+}
+
+.section4-row1 {
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: repeat(2, 250px);
+    width: 30%;
+    height: auto;
+    text-align: right;
+    /* margin: 3% 0; */
+}
+
+.section4-row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'manrope';
+    background-color: #e4fff5;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0;
+    justify-content: center;
+}
+
+.section4-row3 {
+    display: grid;
+    flex-direction: column;
+    grid-template-rows: repeat(2, 250px);
+    width: 30%;
+    /* align-items: center; */
+    height: auto;
+    text-align: left;
+    /* margin: 3% 0; */
+}
+
+.section4-card1{
+    margin: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    background-color: #e4fff5;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: flex-end;
+}
+
+.section4-card{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e4fff5;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: flex-end;
+}
+
+.section4-card h2{
+    font-family: 'manrope';
+}
+
+.section4-cards {
+    display: flex;
+    flex-direction: row;
+    width: 90%;   
+    margin: 0%;  
+    /* margin-left: 130px; */
+    justify-content: center;
+} 
+
+
+.section4-row2 h2{
+    color: var(--grin);
+    margin-bottom: -70px;
+}
+
+.section4-row2 img{
+    width: 100%;
+}
+
+.undercards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+.undercard1{
+    background-color: #f6f6f6;
+    padding: 2% 5%;
+    border-radius: 10px;
+    margin: 2% 1%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.undercard1 h3{
+    font-family: 'manrope';
+    font-size: 30px;
+}
+
+
