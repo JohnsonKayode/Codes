@@ -1,6 +1,9 @@
 :root{
     --gray:#495150;
     --grin:#319b88;
+    --gradient: linear-gradient(to bottom, #D4F3EA, #E8F2D5);
+    --subcolor: #E8F2D5;
+    --topcolor: #D4F3EA;
 }
 
 *{
@@ -303,7 +306,7 @@ header {
     margin: 5%;
     margin-top: -2%;
     border-radius: 1%;
-    background-color: #e4fff5;
+    background: var(--gradient);
 }
 
 .integration-head{
@@ -517,7 +520,7 @@ header {
     text-align: center;
     font-size: 60px;
     font-family: 'manrope';
-    background-color: #e4fff5;
+    background: var(--gradient);
     border-radius: 10px;
     width: 30%;
     margin: 0;
@@ -539,7 +542,7 @@ header {
     margin: 10px;
     /* display: flex; */
     flex-direction: column;
-    background-color: #e4fff5;
+    background-color: var(--topcolor);
     padding: 30px;
     border-radius: 10px;
     align-items: flex-end;
@@ -549,7 +552,7 @@ header {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #e4fff5;
+    background-color: var(--subcolor);
     padding: 30px;
     border-radius: 10px;
     align-items: flex-end;
@@ -567,7 +570,6 @@ header {
     /* margin-left: 130px; */
     justify-content: center;
 } 
-
 
 .section4-row2 h2{
     color: var(--grin);
