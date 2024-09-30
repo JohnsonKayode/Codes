@@ -603,4 +603,47 @@ header {
     font-size: 30px;
 }
 
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    margin: 0%;
+    /* background-color: black; */
+}
+
+/* .top-text-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+} */
+
+/* .section5-first-section h2{
+    font-size: 43px;
+    font-family: 'manrope'; 
+} */
+
+/* .section5-first-section span{
+    color: var(--grin);
+} */
+
+.top-text-div p{
+    font-family: 'inter';
+    padding: 3% 0%;
+    font-size: 18px;
+    /* width: 100%; */
+    /* color: red; */
+}
+
+.top-text-div button{
+    color: white;
+    background-color: #319b88;
+    margin-left: 20%;
+    width: 10%;
+    border: 1px none;
+    border-radius: 10px;
+    text-align: center;
+}
 
