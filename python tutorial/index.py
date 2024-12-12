@@ -96,3 +96,63 @@ y: str = str(x) #what this line is doing, is specifying that variable Y should o
 print(type(x))
 
 #If condition statements
+
+#a control flow in python describes the order in which the code runs
+
+#if statement in python
+
+guess = 0
+
+if guess < 20 or guess > 20:
+    print(f'This is wrong, try again. The correct number is {guess}')
+else: #always add the colon in front 
+    print(f'We won, the number is {guess}')
+
+#for loop in python
+#This is used for iterating a sequence (lists, tuples, dicionaries and others)
+
+for i in name2:
+    if i == 's':
+        continue # Continur could also be considered as a SKIP in a for loop
+#    elif i == 'o':    
+#       break # tells the loop to stop running 
+
+    print(i)
+
+#while loop
+
+#The while loop checks a condition before running and if the condition is false, the code will not run
+
+count = 0
+max = 10
+
+while count < 100:
+    print(f'count {count} is less than {max}')
+    count += 1
+    if count == max:
+        text = f'Now count {count} is now equal to {max}'
+        print(text)
+        break
+
+# using the for loop to repeat the same thing done using the while loop 
+for count in range(max + 1):
+    if count < max:
+        print(f'count {count} is less than {max}')
+        count += 1
+    elif count == max:
+        text = f'Now count {count} is now equal to {max}'
+        print(text)
+        break
+
+#function 
+#A function is a block of code that performs a specific task. could be reused multiple times as well within the same code. Some functions return a value or no value at all 
+
+#they are designed using the def keyword followd by the name of the function. and maybe parenthesis if needed. Functions may take arguements or not. These arguements are used to pass a value that would be used within the function body/code. Pyhton has some already made functions that we can use or we can also create our own
+
+#always add your colon
+
+def firstFunction():
+    return f'Hello World, This is my first function'
+
+#output = firstFunction()
+print(firstFunction())
